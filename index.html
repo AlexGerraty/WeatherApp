@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+    <h1>Weather Forecast</h1>
+    
+    <div class="weather">
+        <div class="search">
+            <input type="text" id="cityInput" placeholder="Search for a city..." spellcheck="false">
+            <button id="searchBtn" type="submit">Search</button>
+        </div>
+        <div id="forecast">
+            <h2 id="cityName"></h2>
+            <h3 id="temp"></h3>
+            <h4 id="wind"></h4>
+            <h5 id="humid"></h5>
+    
+        </div>
+    </div>
+    <div class="container">
+        <div id="searchHistoryContainer"></div>
+        <div id="5dayforecast">
+            <div id="card"></div>
+            <div id="card"></div> 
+            <div id="card"></div> 
+            <div id="card"></div> 
+            <div id="card"></div>  
+
+
+        </div>
+    </div>
+    <script src="./assets/script/script.js"></script>
+</body>
+</html>
